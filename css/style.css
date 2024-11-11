@@ -1,0 +1,284 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif, Arial;
+
+}
+
+.container {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+body {
+    background: linear-gradient(to bottom, #a4b5b9, #d0d2de, #eae7e2);
+    height: 100vh;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+button {
+    cursor: pointer;
+}
+
+li {
+    list-style: none;
+    cursor: pointer;
+}
+
+/* LOGIN QISMI */
+.login__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.login {
+    padding: 10px;
+}
+
+h1 {
+    font-family: "Poppins";
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 45px;
+    text-align: left;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+.login__container {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #525252;
+}
+
+.user-div {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    text-align: center;
+
+    width: 364px;
+    height: 52px;
+    border-radius: 16px;
+    background-color: #f0edffcc;
+    border: none;
+    font-family: "Poppins";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    text-decoration-skip-ink: none;
+    padding: 14px 254px 14px 18px;
+    margin-bottom: 18px;
+}
+
+.user-div input {
+    background-color: transparent;
+    border: none;
+    color: #1C1C1C;
+    font-family: "Bangers";
+}
+
+.user-div input:focus {
+    outline: none;
+    border: none;
+}
+
+#form {
+    text-align: center;
+    margin-top: 24px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 24px;
+}
+
+
+.password-div {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    text-align: center;
+
+    width: 364px;
+    height: 52px;
+    border-radius: 16px;
+    background-color: #f0edffcc;
+    border: none;
+    font-family: "Poppins";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    text-decoration-skip-ink: none;
+    padding: 14px 254px 14px 18px;
+}
+
+.password-div input {
+    background-color: transparent;
+    border: none;
+    color: #1C1C1C;
+    font-family: "Bangers";
+}
+
+.password-div input:focus {
+    outline: none;
+    border: none;
+}
+
+.btn {
+    width: 124px;
+    height: 52px;
+    border-radius: 16px;
+    background: linear-gradient(99.78deg, #9181F4 -5.85%, #5038ED 109.55%);
+    box-shadow: 0px 8px 21px 0px #00000029;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: "Poppins";
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 18px;
+    color: #fff;
+    border: none;
+    margin-bottom: 24px;
+    transition: all 0.5s ease;
+}
+
+.btn:active {
+    transform: scale(0.95);
+}
+
+input::placeholder {
+    font-family: "Bangers";
+}
+
+span {
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    color: #1C1C1C;
+    width: 139px;
+    height: 24px;
+}
+
+#url {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    flex-direction: column;
+}
+
+#google a {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #525252;
+
+}
+
+#facebook a {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #525252;
+}
+
+#other {
+    margin-bottom: 24px;
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #525252;
+}
+
+
+#google {
+    width: 364px;
+    height: 52px;
+    border: 1px solid #2c2f44;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 16px;
+}
+
+#facebook {
+    width: 364px;
+    height: 52px;
+    border: 1px solid #2c2f44;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 16px;
+}
+
+/* MAIN PAGE QISMI */
+.main-page {
+    display: none;
+}
+
+.main__container {
+    width: 100%;
+    height: 700px;
+    background-image: url("../images/main-bac-img.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.block {
+    width: 452px;
+    height: 574px;
+    background: rgba(255, 255, 255, 0.21);
+    border-radius: 46px;
+    border: 1px solid #FFFFFF;
+    position: relative;
+    margin-bottom: 80px;
+}
+
+.block h2 {
+    width: 184px;
+    height: 230px;
+    font-family: "Poppins";
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 46px;
+    color: #fff;
+    margin-top: 26px;
+    margin-left: 31px;
+}
+
+.block img {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    left: -230px;
+}
+
+#electic {
+    position: absolute;
+    left: -30px;
+    bottom: 110px;
+}
